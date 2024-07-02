@@ -9,7 +9,6 @@
 
 .first-entry .entry-header {
     overflow: hidden;
-    display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
 }
@@ -22,6 +21,7 @@
 .first-entry .entry-content {
     margin: 14px 0;
     font-size: 16px;
+/*    display: -webkit-box;*/
     -webkit-line-clamp: 3;
 }
 
@@ -62,7 +62,7 @@
     font-size: 14px;
     line-height: 1.6;
     overflow: hidden;
-    display: -webkit-box;
+/*    display: -webkit-box;*/
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
@@ -86,7 +86,7 @@
 
 .entry-hint-parent {
     display: flex;
-    justify-content: space-between;
+/*    justify-content: space-between;*/
 }
 
 .entry-cover {

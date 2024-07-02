@@ -64,3 +64,10 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+/* FIXME: Swap border color to var() */
+blockquote {
+    border-left: 2px solid #e33d94;
+    margin: 0 0 15px;
+    padding: 0 0 0 20px;
+}
